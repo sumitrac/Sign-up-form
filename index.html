@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <title>Sign up form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+<body>
+  <div class="split-screen">
+    <div class="left">
+      <section class="copy">
+        <h1>Explore your curiosity</h1>
+        <p>Live, Learn & Explore the world of your curiosity</p>
+        <!--<img id="image" src="" alt="image">-->
+      </section>
+    </div>
+
+    <div class="right">
+        <form action="/action_page.php" method="get">
+          <section class="copy">
+            <h2>Sign Up</h2>
+            <div class="login-container">
+              <p>Already have an account? <a href="#">
+                <strong>Log In</strong></a></p>
+            </div>
+          </section>
+
+            <div class="input-container name">
+              <label for="fname">Full Name</label>
+              <input id="fname" name="fname" type="text">
+            </div>
+
+            <div class="input-container email">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email">
+            </div>
+
+            <div class="input-container password">
+              <label for="password">Password</label>
+              <input id="password" name="password" placeholder="Must be at least 8 characters" type="password">
+              <i class="fa fa-eye-slash"></i>
+            </div>
+
+            <div class="input-container cta">
+              <label class="checkbox-container">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+                Sign up for email updates.
+              </label>
+            </div>
+
+              <button class="signup-btn" type="Submit">Sign Up</button>
+
+                <section class="copy legal">
+                    <p><span class="policy">By continuing, you agree to accept our <br><a href="#">Privacy Policy</a> &amp; <a href="#">Terms of Service</a></span></p>
+                </section>
+
+            </form>
+          </div>
+
+      </div>
+</body>
+</html>
